@@ -1,0 +1,12 @@
+﻿/* -- THIS CSS IS FOR CUSTOMIZATION OF STYLE -- */
+
+.navbar-static-side {
+    height: 90%; /*Setting to 100% doesn't work, because of the margin-top:51px setting. The correct value should be 100%-51px, but I don't know how to set this with css :-( */
+    overflow-y: auto; /*Show the scrollbar*/
+    position: fixed; /*This did the trick! The original value was "absolute" */
+    margin-top: 51px; /* Original Value */
+    width: 250px; /* Original Value */
+    z-index: 1; /* Original Value */
+}
+
+
