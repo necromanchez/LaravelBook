@@ -19,7 +19,7 @@
   <table class="table table-striped">
     <thead>
         <tr>
-          <td>ID</td>
+          <td>IDs</td>
           <td>Title</td>
           <td>Description</td>
           @if( Auth::user()->type  != "Reader")
